@@ -1,0 +1,12 @@
+{
+  "name": "loxcss",
+  "version": "1.0.0",
+  "description": "CSS mirroring tool ✨",
+  "main": "index.js",
+  "repository": "https://github.com/hkh12/loxcss.git",
+  "author": "Hosein Khansari <hrk.x11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-js": "^1.0.1"
+  }
+}
