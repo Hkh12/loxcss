@@ -9,5 +9,8 @@
   "dependencies": {
     "cli-spinner": "^0.2.8",
     "postcss-js": "^1.0.1"
+  },
+  "bin": {
+    "loxcss": "lib/index.js"
   }
 }
