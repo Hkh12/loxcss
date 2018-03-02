@@ -31,6 +31,7 @@ and that's amazing ✨
 */
 ```
 ### CLI
+Lox comes with a **CLI** tool inside.
 #### help
 ```shell
 
@@ -59,3 +60,15 @@ loxcss test.css --nostream
 loxcss test.css -o transformed
 # result will be saved to transformed.css
 ```
+## Supported CSS properties
+Lox can transform these CSS properties:
+1. Anything containing `-left` or `-right` (like `padding-right`)
+- `direction`
+- `text-align`
+- `margin` and `padding` (`top right bottom left`)
+- `float`
+- `right`
+- `left`
+- `border-radius` if 4 values are assigned (`0px 1px 2px 3px`)
+
+If you found any issues on this, just [report it](https://github.com/hkh12/loxcss/issues).
