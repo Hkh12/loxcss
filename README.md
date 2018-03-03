@@ -62,7 +62,7 @@ loxcss test.css -o transformed
 ```
 ## Supported CSS properties
 Lox can transform these CSS properties:
-1. Anything containing `-left` or `-right` (like `padding-right`)
+- Anything containing `-left` or `-right` (like `padding-right`)
 - `direction`
 - `text-align`
 - `margin` and `padding` (`top right bottom left`)
